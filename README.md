@@ -11,7 +11,7 @@ Test framework:
 
 Test Coverage:
 
-User Login Validations:
+User-Login Validations:
 
 1.	Successful login page using page objects loginpage.js
 2.	Successful login  test Using Fixtures and functions from commands.js
@@ -20,12 +20,12 @@ User Login Validations:
 5.	Signing with valid Username and wrong Password
 6.	Verify links in Login  page
 
-User Forgot username and Password Validations:
+User-Forgot username and Password Validations:
 
 1.	Verify workflow for Forgot Username link in Login page.
 2.	Verify workflow for Forgot Password link in Login page.
 
-Story creation-Add new Story, Delete story and Sign out:
+Create Story- Add new Story, Delete story and Sign out:
 1.	Login to ArcGIS story maps Using Fixtures and functions from commands.js
 2.	Add a New Story from Scratch
 3.	Add title, description, Username using  the data from fixture
