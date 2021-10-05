@@ -1,12 +1,12 @@
 ArcGIS Story Maps Automation with Cypress
 
-Test Coverage includes User Login Validations, Adding New Story and Tear Down.
+Test Coverage includes some basic Tests for User Login Validations, Adding New Story and Tear Down.
 
 Test framework:
 1.	Fixtures: Used Fixtures to set up data for login and story creation
-2. 	Integrations: Tests for User Validations and Creating Stories.
+2. 	Integrations: Contains Tests for User Validations and Creating Stories.
 3.	Support/Page Objects: For code reusability and maintainability, used Page Objects Model with Page classes for Loginpage, Storiespage, NewStoriespage and Forgotuserpage
-4.	Support/commands: To add reusable tests functions like Login and tear down.
+4.	Support/commands: To add reusable tests functions like Login and Tear down.
 5.	Cypress.json: Cypress test runner configuration modified for Timeout and video as false .
 
 Test Coverage:
