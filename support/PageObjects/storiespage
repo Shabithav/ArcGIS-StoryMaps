@@ -1,0 +1,54 @@
+class storiespage{
+
+    getTitle(){
+        return cy.get('h2');
+    }
+
+    getStoryPageLabel(){
+        return 'Stories';
+    }
+
+    getStoriesURL(){
+        return cy.url();
+    }
+   
+    getStoriesURLValue(){
+        return 'https://storymaps.arcgis.com/stories';
+    }
+
+    getNewStoryButton(){
+        return cy.get('button');
+    }
+     
+    getNewStoryLabel(){
+        return 'New story';
+    }
+
+    getStoryScratch(){
+        return cy.get('button');
+    }
+    getStoryScratchLabel(){
+        return  'Start from scratch';
+    }
+
+    getMyStories(){
+        return cy.get('.card-title');
+    }
+
+    getStorycontextMenu(){
+        return cy.get('[data-testid="context-menu-button"]');
+    }
+
+    getDeletbutton(){
+        return cy.get('button');
+    }
+
+    getConfirmDeletebutton(){
+        return cy.get('button');
+    }
+    
+   
+   
+    
+}
+export default storiespage

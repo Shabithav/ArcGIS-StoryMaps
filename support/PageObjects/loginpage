@@ -1,0 +1,92 @@
+class loginpage {
+
+    getLoginPage(){
+        return cy.get('.arcgis-login');
+    }
+
+    getUserName() {
+        return cy.get('#user_username');
+    }
+
+    getPassword(){
+        return cy.get('#user_password');
+    }
+
+    getSignInButton(){
+        return cy.get('#signIn');
+    }
+
+    getPasswordError(){
+        return cy.get('.input-error-message'); 
+    }
+
+    getUsernameError(){
+        return cy.get('.input-error-message');
+    }
+
+    getErrormessage(){
+        return cy.get('#errMessage');
+    }
+
+    getForgotUserName(){
+        return cy.get('a');
+    }
+
+    getForgotPassword(){
+        return cy.get('a');
+    }
+
+    getArcGISLogin(){
+        return cy.get('.arcgis-login');
+    }
+
+    getCreateAccount(){
+        return cy.get('#createAcctLink');
+    }
+
+    getOrganizationalURL(){
+        return cy.get('#myOrgsTitle');
+    }
+
+    getUsernameErrorText(){
+        return  'A valid username is required';
+    }
+
+    getPasswordErrorText(){
+        return  'A valid password is required';
+    }
+  
+    getUsernamePasswordErrorText(){
+        return  'Invalid username or password.';
+    }
+
+    getToomanyLoginErrorText(){
+        return  'Too many invalid logins. Please try again in approximately 15 minutes.';
+    }   
+
+    getForgotUsernameText(){
+        return  'Forgot username?';
+    }
+
+    getForgotPasswordText(){
+        return  'Forgot password?';
+    }
+    getRetreievUsername(){
+        return 'Retrieve username';
+    }
+
+    getEmailMessage(){
+        return 'An email has been sent to you.';
+    }
+
+    getReturnSigin(){
+        return 'Return to sign in';
+    }
+
+    getArcGISLoginTitle(){
+        return 'ArcGIS login';
+    }
+   
+
+}
+export default loginpage
