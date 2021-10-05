@@ -1,0 +1,6 @@
+{
+    "defaultCommandTimeout" : 10000,
+    "execTimeout": 100000,
+    "video": false
+    
+}
